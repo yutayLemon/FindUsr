@@ -1,6 +1,3 @@
-var Table = [];
-var locationTable = [];
-
 
 function sdbm(id){
     let hash = 0;
