@@ -1,8 +1,11 @@
 (async function(){
     
 var locationTable = await fetch("locatTable.json");
+locationTable = await locationTable.json();
 var Table = await fetch("table.json");
+Table = await Table.json();
     console.log(Table);
+    console.log(locationTable);
 var h = 1000;
 var w = 1000;
 var mousePos = {};
