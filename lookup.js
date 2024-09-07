@@ -2,7 +2,7 @@
     
 var locationTable = await fetch("locatTable.json");
 var Table = await fetch("table.json");
-    console.log("hh");
+    console.log(Table);
 var h = 1000;
 var w = 1000;
 var mousePos = {};
