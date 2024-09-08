@@ -5,6 +5,7 @@ locationTable = await locationTable.json();
 var Table = await fetch("table.json");
 Table = await Table.json();
 
+    console.log(Table.length);
 var h = 3508/4;
 var w = 2480/4;
 var mousePos = {};
